@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:background="@color/background">
+
+    <ImageView
+        android:contentDescription="@string/Brasov"
+        android:id="@+id/image"
+        style="@style/Image_Views"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <RelativeLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:paddingStart="@dimen/Relative_Layout_Padding"
+        android:paddingEnd="@dimen/Relative_Layout_Padding">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="202dp"
+            android:layout_height="@dimen/list_item_height"
+            android:gravity="center_vertical"
+            android:textAlignment="gravity"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="name" />
+
+        <ImageView
+            android:contentDescription="@string/description"
+            android:id="@+id/more_about"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_views_address_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="19dp"
+            android:src="@drawable/ic_more_black_24dp" />
+    </RelativeLayout>
+
+</LinearLayout>
