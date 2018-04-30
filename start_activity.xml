@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/start_page"
+    android:background="@color/background">
+
+    <ImageView
+        style="@style/Image_Start_Page"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:contentDescription="@string/startFragmentImageDescr"
+        android:src="@drawable/brasov" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Brasov"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:paddingTop="@dimen/Image_Views"
+        android:paddingBottom="@dimen/Image_Views"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/Text_Start_Page"
+            android:id="@+id/aboutTheTown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+    </ScrollView>
+
+</LinearLayout>
