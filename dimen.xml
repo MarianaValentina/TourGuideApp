@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">120dp</dimen>
+    <dimen name="padding_left">16dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="play_height">24dp</dimen>
+    <dimen name="play_width">24dp</dimen>
+    <dimen name="margin_start_page">10dp</dimen>
+    <dimen name="img_start">212dp</dimen>
+    <dimen name="Image_Views">5dp</dimen>
+    <dimen name="Relative_Layout_Padding">10dp</dimen>
+    <dimen name="text_views_height">30dp</dimen>
+    <dimen name="text_views_address_height">35dp</dimen>
+</resources>
