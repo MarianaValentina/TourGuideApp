@@ -1,0 +1,52 @@
+package com.example.marry.tourguideapp;
+
+import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+
+
+public class RestaurantsFragment extends Fragment {
+
+    public RestaurantsFragment() {
+        // Required empty public constructor
+    }
+
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        //inflate the list_view
+        View rootView = inflater.inflate(R.layout.list_view, container, false);
+
+        //create an ArrayList with Info elements
+        final ArrayList<Info> infos = new ArrayList<Info>();
+
+        //we use the object of the arrayList, the function add() and the constructor of the Info class to populate the arrayList
+        infos.add(new Info(R.drawable.dei_fratti, R.string.deiFrattiName, R.string.deiFrattiAddress, R.string.deiFrattiPhone));
+        infos.add(new Info(R.drawable.keller_steak_house, R.string.kellerName, R.string.kellerAddress, R.string.kellerPhone));
+        infos.add(new Info(R.drawable.prato, R.string.pratoName, R.string.pratoAddress, R.string.pratoPhone));
+        infos.add(new Info(R.drawable.la_ceaun, R.string.ceaunName, R.string.ceaunAddress, R.string.ceaunPhone));
+        infos.add(new Info(R.drawable.gratar_urban, R.string.gratarUrbanName, R.string.gratarUrbanAddress, R.string.gratarUrbanPhone));
+
+        // Create an object of InfoAdapter, whose data source is a list of Info.
+        // The adapter knows how to create list items for each item in the list.
+        RestaurantsAdapter restaurantsAdapter = new RestaurantsAdapter(getActivity(), infos );
+
+        // Find the ListView object in the view hierarchy
+        // There should be a ListView with the view ID called list in the list_view.xml
+        ListView listView = rootView.findViewById(R.id.list);
+
+          // Make the ListView use the  InfoAdapter we created above, so that the
+          // ListView will display list items for each info in the list.
+        listView.setAdapter(restaurantsAdapter);
+
+        return  rootView;
+    }
+}
