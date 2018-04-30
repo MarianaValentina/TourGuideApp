@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="StartFragment">Presentation</string>
+    <string name="RestaurantsFragment">Restaurants</string>
+    <string name="SightsToVisitFragment">Top Atractions</string>
+    <string name="EventsFragment">Activities</string>
+    <string name="Gallery">Gallery</string>
+    <string name="startFragmentImageDescr">UpBrasov</string>
+    <string name="Brasov">Beautiful Brasov</string>
+    <string name="description">description</string>
+    <string name="aboutTown">
+        \t\t\tFringed by the peaks of the Southern Carpathian Mountains and resplendent with gothic,
+        baroque and renaissance architecture, as well as a wealth of historical attractions,
+        Brasov is one of the most visited places in Romania.\n
+        \t\t\tThe entire territory of the county falls in the catchment area of Olt river,
+        which crosses the county from the confluence with the Negru River to the confluence with Ucea river,
+        over a distance of 210 km. The most important tributaries of the river Olt in the county are:
+        Timis, Ghimbasel, Barsa, Homorodu Mare and Sercaia.\n
+        \t\t\tBrasov county owns 32 protected areas and an impressive number of nature monuments.The county is home
+        to the National Parks Piatra Craului (14,795 ha) and Bucegi (32,663 ha).
+        The reserve in the Bucegi Mountains includes: Abruptul Bucsoiu, Malaesti, Gaura, where various
+        fauna species are protected, such as chamois, lynx, mountain cock, as well as rare flora species.
+        Piatra Craiului Mountains are completely protected, hosting about 40 percent of the endemic species in Romania,
+        a representative example being the carnation of Piatra Craului, a unique species in the world. \n
+        \t\t\tThe list of natural monuments includes: several fossiliferous places, The Basalt Columns at Racos, the
+        Dopca Gorges, the Basalt Columns at Piatra Cioplita, the Basalt Micro-canyon at Hoghiz, the Basalt Rock at Rupea,
+        the caves Barlogul Ursului and Valea Cetatii. The list of natural reserves includes: Harman Swamp, Tampa Mountain,
+        Bogatii Forest, the Narcissus Glade at Dumbrava Vadului, Postavar Mountain, Dealul Cetatii - Lempes, Cotul Turzunului,
+        Stejerisul Mare, the Forest and eutrophic swamps at Prejmer, the Geological Complex Racosul de Jos, Holbav, Comana Cave,
+        Ciocas Hill - Vitelului Hill.\n
+        \t\t\tForests account for over 35 percent of the entire area. The main natural resources of the county are:
+        coal deposits - lignite (Vulcan), marble (Sinca Veche), limestone (Brasov, Brasov, Zarnesti and Racos),
+        basalt and andesite (Racos and Bogatii Forest), sandstone (Teliu), thermal waters (Brasov) and iodo-sodium waters
+        (Persani, Rotbav and Homorod), mineral waters (Zizin).
+    </string>
+
+    //info about the restaurants
+    <string name="deiFrattiName">Dei Fratti</string>
+    <string name="deiFrattiAddress">George Enescu Square, Brasov County</string>
+    <string name="deiFrattiPhone">0724216028 </string>
+
+    <string name="pratoName"> Prato </string>
+    <string name="pratoAddress"> no. 2 Valentin Wagner street, Brasov County</string>
+    <string name="pratoPhone"> 0268 473 367 </string>
+
+    <string name="kellerName"> Keller Steak House </string>
+    <string name="kellerAddress"> no. 2, Apollonia Hirscher street, Brasov County</string>
+    <string name="kellerPhone"> 0268 472 278</string>
+
+    <string name="ceaunName"> LaCeaun </string>
+    <string name="ceaunAddress"> no. 27 Michael Weiss street, Brasov County</string>
+    <string name="ceaunPhone"> 0731 832 000</string>
+
+    <string name="gratarUrbanName"> Gratar Urban </string>
+    <string name="gratarUrbanAddress"> no. 11 Michael Weiss street, Brasov County</string>
+    <string name="gratarUrbanPhone"> 0731 832 033</string>
+
+    //info about the sights to visit in Brasov
+    <string name="biserica_neagra"> Black Church </string>
+    <string name="biserica_neagra_d">
+        \t\t\tThe Black Church is one of the most impressive religious edifices in Romania.
+       Its construction began in the 14th century as a Roman Catholic structure and it was known as the Church of Saint Mary.
+        It was built on the place of another older church. The first priest of this new church was a man named Thomas Sander.
+        He died in 1410 and his grave can be found inside the church, in the choir area.\n
+        \t\t\tCompleted by the end of the 15th century, the church belongs to the last stages of Gothic architecture.
+        The result was a three-nave basilica, all the same height, as was preferred during the 15th and 16th
+        centuries in the German lands, where most of the architects and masons originated.
+        The Catholic services were replaced with Lutheran ones during the Protestant Reformation.\n
+    </string>
+
+    <string name="historical_center"> Historical Center</string>
+    <string name="historical_center_d">
+        \t\t\tThe city of Brasov attracts a growing number of tourists, probably due to its historical center,
+        which has preserved its architecture both the street network and the medieval fortifications that surrounded the city.\n
+        \t\t\tThe medieval fortifications, which surround the old center, were built during the 13th and 19th
+        centuries and their role was to protect the inhabitants of Braşov from the invaders.
+        \t\t\tIn the heart of the medieval fortress of Brasov there is the Council Square.Typically, there are various artistic
+        cultural events, outdoor concerts, thematic fairs, and even the well-known Golden Deer festival taking place in this market.\n
+        \t\t\tThe building in the center of the market, an architectural monument that stands out in all the photos,
+        is the House of Counsel. It was built in 1420 and was originally just a watch tower,
+        then for a while it was the headquarters of the town hall, and today it houses the Museum of History.
+    </string>
+
+    <string name="council_square"> Council Square </string>
+    <string name="council_square_d">
+        \t\t\tThe Council Square is the central starting point for most tourist attractions in Brasov such as the Black Church -
+        the most famous in the city, built between 1377 and 1477, Republic Street and Muresenilor Street, Sforii Street,
+        Ceara Gate and Ecaterina Gate, Altea Dupa walls with White Tower, Black Tower and Graft Bastion, Tampa Area,
+        Unirii Square where St. Nicholas Church and Museum Complex 'Prima Prima Scoala Romana' are located.
+    </string>
+
+    <string name="first_school"> First Romanian School </string>
+    <string name="first_school_d">
+       \t\t\tThis has been a centre for Romanian teaching and book printing for centuries.
+        The small museum houses countless Romanian ‘firsts’: the oldest Romanian bible (printed on goats’ skin),
+        oldest letter written in Romanian using the Latin alphabet (previously, Romanian was written with Cyrillic letters),
+        a page from an 11th century schoolbook and much more.
+        The printing press itself printed only 39 books, taking 20 workers and eight translators months to finish just one book.
+        No wonder a book was worth 12 oxen in those days. Also here is the tiny Museum of the Junii (Muzeul Junilor),
+        showing the seven different traditional costumes the Schei men wore; Schei women had only one.
+    </string>
+
+    <string name="st_nicholas"> Saint Nicholas Church </string>
+    <string name="st_nicholas_d">
+        \t\t\tThe building of the church in the Bolgárszeg suburb started in 1495 with the support of Vlad Călugăru,
+        ruler of Muntenia. It was built on the place of an older church from 1292.
+        The Orthodox Church and the adjecent school were the main intellectual and cultural support of the Romanians.
+        It had an influence an all teritories inhabited by Romanians. Especially the work of deacon Coresi,
+        who printed the first ecclesiastical books in Romanian.\n
+        \t\t\tThe monarchs of the time also played a major role in adonrning and expanding the church,
+        by offering money, gold and silver objects, ikons, and ceremonial objects.
+        Even the Russian empress, Elisabeta Petrovna, donated to the church.
+        The XVIII century restoration works highly affected the original Gothic look of the church giving a
+        Baroque style to the building. The frescos made then are still preserved today.
+        The church cemetery is the resting place of such well-known people as Dicolae Titulescu,
+        the famous diplomat, dr. Aurel Popovici, the great politician of his time, Vasile Saftu, the poet, and many others.
+    </string>
+
+    <string name="turnul_alb">White Tower</string>
+    <string name="turnul_alb_d">
+        \t\t\tThe White Tower (Turnul Alb) is located directly above the Bastionul Graft,
+        and you can climb up to it via some very steep steps – do not try it unless you are
+        feeling extremely fit and agile. There are more steps when you actually get to the tower,
+        but the views from the top are fantastic.
+    </string>
+
+    <string name="dupa_ziduri">"Behind the Walls" Alley</string>
+    <string name="dupa_ziduri_d">
+        \t\t\t“După Ziduri” Alley, meaning “behind the walls”, is a narrow sidewalk between the northern
+        defensive walls and a forest covered slope. At one end we find the Blacksmiths’ Bastion,
+        currently the State Archives. Above the alley a path takes us up to the Black Tower (“Turnul Negru).
+        Dating back from the 15th century, the tower got its name after being struck by lightning and turning black.
+        To me, it looked rather gray… Behind it, we saw a couple of holes, clearly dug by human hands into the rock,
+        probably some old tunnels that used to connect the towers to the city. If only we would have brought our
+        flashlights along… Continuing along the path we reached the White Tower (“Turnul Alb”),
+        which is a little bigger and got its name from the white paint that always covered it.
+    </string>
+
+    <string name="casa_muresenilor">Muresenilor House</string>
+    <string name="casa_muresenilor_d">
+        \t\t\tOn Piaţa Sfatului western side stands the intimate Mureşenilor House Memorial Museum,
+        which honours the family of Jacob Mureşan, the first editor of the Romanian-language Gazeta de
+        Transilvania, a political newspaper published in the 19th century.
+    </string>
+
+    <string name="brasov_citadel">Brasov Citadel</string>
+    <string name="brasov_citadel_d" >
+        \t\t\tThe place is one of the best points if you want to have an entire view over the city.
+        From the top of the hill, two totally different panoramas can be seen:
+        On one hand you can explore the "new city" or rather say the communist one in a bird s eye view…
+        (Ah I forgot to tell, for some years during communism, the city of Brasov was named Stalin city. )\n
+        and on the other side, you can admire the old city with the Black Church
+        in the middle and the name of the city Brasov is written in a mountain face the same like Hollywood style.
+    </string>
+
+    <string name="weavers_bastion"> Weavers Bastion</string>
+    <string name="weavers_bastion_d">
+        \t\t\tThe bastion was built in two phases between 1421-1436 and 1570-1573.
+        Part of it collapsed in 1701, thus it was reconstructed in 1750 and restored in 1910.
+        The hexagon shaped building occupies 1.616 sq.metres and its thick (1.5-3m ) battered walls also have
+        loopholes for pouring tar. On the ground floor there are crevices for cannons.
+        On the interior side of the walls there are 3-4 storey hallways. In 1800 two other constructions
+        were built for the guilt, while in 1807, when the bastion lost its protective function a watch house
+        was built to the entrance. \n
+        \t\t\tThe year 1908 brings along changes and the bastion becomes the scene of more and more cultural events.
+        Due to its excellent acoustic even opera nights were held here. Since 1950 it houses a museum.
+        The permanent exhibition entitled 'Brasov castle and the Bársza country fortresses' displays
+        weapons from the middle ages, products made by the guilds, the scale model of the city in the middle ages,
+        made by Friedrich Herman in 1896, as well as the scale model of Schei.
+    </string>
+
+
+    //info about what to do OUTSIDE in Brasov
+    <string name="aventura_parc">Aventura Parc</string>
+    <string name="bran">Bran Castle</string>
+    <string name="cantacuzino">Cantacuzino Castle</string>
+    <string name="dino">Dino Park</string>
+    <string name="paradisul">Aqua Paradise</string>
+    <string name="peles">Peles Castle</string>
+    <string name="rasnov">Rasnov Citadel</string>
+    <string name="zoo">The Zoo</string>
+    <string name="superland">Superland</string>
+    <string name="bears">Bear Sanctuary</string>
+
+</resources>
