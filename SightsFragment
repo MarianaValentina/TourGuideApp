@@ -1,0 +1,67 @@
+package com.example.marry.tourguideapp;
+
+import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+
+
+public class SightsToVisitFragment extends Fragment {
+
+    public SightsToVisitFragment() {
+        // Required empty public constructor
+    }
+
+
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        //inflate the list_view
+        View rootview = inflater.inflate(R.layout.list_view, container, false);
+
+        //create an ArrayList with Info elements
+        final ArrayList<Info> infos = new ArrayList<Info>();
+
+        //we use the object of the arrayList, the function add() and the constructor of the Info class to populate the arrayList
+        infos.add(new Info(R.drawable.biserica_neagra, R.string.biserica_neagra, R.string.biserica_neagra_d));
+        infos.add(new Info(R.drawable.historical_center, R.string.historical_center, R.string.historical_center_d));
+        infos.add(new Info(R.drawable.piata_sfatului, R.string.council_square, R.string.council_square_d));
+        infos.add(new Info(R.drawable.first_school, R.string.first_school, R.string.first_school_d));
+        infos.add(new Info(R.drawable.st_nicholas_church, R.string.st_nicholas, R.string.st_nicholas_d));
+        infos.add(new Info(R.drawable.turnul_alb, R.string.turnul_alb, R.string.turnul_alb_d));
+        infos.add(new Info(R.drawable.dupa_ziduri, R.string.dupa_ziduri, R.string.dupa_ziduri_d));
+        infos.add(new Info(R.drawable.casa_muresenilor, R.string.casa_muresenilor, R.string.casa_muresenilor_d));
+        infos.add(new Info(R.drawable.cetatea_brasov, R.string.brasov_citadel, R.string.brasov_citadel_d));
+        infos.add(new Info(R.drawable.bastion_tesatorilor, R.string.weavers_bastion, R.string.weavers_bastion_d));
+
+        // Create an object of InfoAdapter, whose data source is a list of Info.
+        // The adapter knows how to create list items for each item in the list.
+        SightsAdapter sightsAdapter = new SightsAdapter(getActivity(), infos);
+
+        // Find the ListView object in the view hierarchy
+        // There should be a ListView with the view ID called list in the list_view.xml
+        final ListView listView = rootview.findViewById(R.id.list);
+
+        // Make the ListView use the  InfoAdapter we created above, so that the
+        // ListView will display list items for each info in the list.
+        listView.setAdapter(sightsAdapter);
+
+        //on click to display a toast with some info about the sight
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getActivity(), infos.get(position).getmDescription(), Toast.LENGTH_LONG).show();
+            }
+        });
+
+        return rootview;
+    }
+}
